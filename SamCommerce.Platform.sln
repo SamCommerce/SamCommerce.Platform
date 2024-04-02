@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamCommerce.Platform.Core", "SamCommerce.Platform.Core\SamCommerce.Platform.Core.csproj", "{4B14483C-9A35-4E28-A49C-B38844EAD085}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C14DD154-ED80-4BA1-9D6F-132676B220F5}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B14483C-9A35-4E28-A49C-B38844EAD085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B14483C-9A35-4E28-A49C-B38844EAD085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B14483C-9A35-4E28-A49C-B38844EAD085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B14483C-9A35-4E28-A49C-B38844EAD085}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2318B12-5E01-4AD1-95F0-A25C95F55073}
+	EndGlobalSection
+EndGlobal
