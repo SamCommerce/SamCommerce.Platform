@@ -9,6 +9,8 @@
     <Authors>Vincent Qi</Authors>
     <IncludeSymbols>True</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <VersionPrefix>1.0.3</VersionPrefix>
+    <Version>$(VersionPrefix)</Version>
   </PropertyGroup>
 
   <ItemGroup>
