@@ -7,7 +7,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace SamCommerce.Platform.Core.Extensions
+namespace SamCommerce.Platform.Core.Common
 {
     public static partial class StringExtensions
     {

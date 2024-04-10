@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamCommerce.Platform.Core", "SamCommerce.Platform.Core\SamCommerce.Platform.Core.csproj", "{4B14483C-9A35-4E28-A49C-B38844EAD085}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SamCommerce.Platform.Core", "SamCommerce.Platform.Core\SamCommerce.Platform.Core.csproj", "{4B14483C-9A35-4E28-A49C-B38844EAD085}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C14DD154-ED80-4BA1-9D6F-132676B220F5}"
 	ProjectSection(SolutionItems) = preProject
@@ -12,7 +12,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2DE24D3F-B83B-4504-8607-7A408C54BECE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamCommerce.Platform.Data", "SamCommerce.Platform.Data\SamCommerce.Platform.Data.csproj", "{D843AFD4-47CD-4B33-8B70-71714112DE2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SamCommerce.Platform.Data", "SamCommerce.Platform.Data\SamCommerce.Platform.Data.csproj", "{D843AFD4-47CD-4B33-8B70-71714112DE2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamCommerce.Platform.Security", "SamCommerce.Platform.Security\SamCommerce.Platform.Security.csproj", "{6944E1F6-31B8-48F9-8758-CBBE3DD99921}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,6 +30,10 @@ Global
 		{D843AFD4-47CD-4B33-8B70-71714112DE2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D843AFD4-47CD-4B33-8B70-71714112DE2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D843AFD4-47CD-4B33-8B70-71714112DE2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6944E1F6-31B8-48F9-8758-CBBE3DD99921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6944E1F6-31B8-48F9-8758-CBBE3DD99921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6944E1F6-31B8-48F9-8758-CBBE3DD99921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6944E1F6-31B8-48F9-8758-CBBE3DD99921}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -35,6 +41,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{4B14483C-9A35-4E28-A49C-B38844EAD085} = {2DE24D3F-B83B-4504-8607-7A408C54BECE}
 		{D843AFD4-47CD-4B33-8B70-71714112DE2B} = {2DE24D3F-B83B-4504-8607-7A408C54BECE}
+		{6944E1F6-31B8-48F9-8758-CBBE3DD99921} = {2DE24D3F-B83B-4504-8607-7A408C54BECE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B2318B12-5E01-4AD1-95F0-A25C95F55073}

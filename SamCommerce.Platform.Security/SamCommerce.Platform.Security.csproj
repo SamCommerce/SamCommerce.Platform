@@ -7,18 +7,18 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>$(AssemblyName)</Title>
     <Authors>Vincent Qi</Authors>
-    <VersionPrefix>1.0.4</VersionPrefix>
+    <VersionPrefix>1.0.2</VersionPrefix>
     <Version>$(VersionPrefix)</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="EntityFrameworkCore.Triggers" Version="1.2.3" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.3" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Authorization" Version="8.0.3" />
+    <PackageReference Include="OpenIddict.Abstractions" Version="5.4.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\SamCommerce.Platform.Core\SamCommerce.Platform.Core.csproj" />
+    <ProjectReference Include="..\SamCommerce.Platform.Data\SamCommerce.Platform.Data.csproj" />
   </ItemGroup>
 
 </Project>
